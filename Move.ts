@@ -1,8 +1,41 @@
+class Pool{
+    private pool: any[] = [];
+
+    public get size(){
+        return this.pool.length;
+    }
+
+    public get(): any{
+        return this.pool.shift();
+    }
+
+    public put(item: any){
+        this.pool.push(item);
+    }
+}
+
 
 /**
  * 自定义位移动画
  */
-export default class Move3001801{
+export default class Move{
+    private static movePool: Pool = new Pool();
+
+    /**
+     * 获取一个运动实例
+     */
+    public static getInstance(): Move{
+        if(this.movePool.size > 0) return this.movePool.get();
+        return new Move();
+    }
+
+    /**
+     * 回收一个运动实例
+     */
+    private static putInstance(item: Move){
+        this.movePool.put(item);
+    }
+
 
     private target: cc.Node = null;
     private container: cc.Node = null;
@@ -42,7 +75,7 @@ export default class Move3001801{
         this.updateAllPosition();
     }
 
-    public setParams(target: cc.Node, startNode: cc.Node, endNode: cc.Node, duration: number, c1?: cc.Vec2, c2?: cc.Vec2): Move3001801{
+    public setParams(target: cc.Node, startNode: cc.Node, endNode: cc.Node, duration: number, c1?: cc.Vec2, c2?: cc.Vec2): Move{
         this.target = target;
         this.container = target.parent;
         this.startNode = startNode;
@@ -65,11 +98,19 @@ export default class Move3001801{
         this.onComplete = onComplete;
     }
 
+    /**
+     * 停止这个动作
+     * @param DoComplete 
+     */
     public stop(DoComplete: boolean = true): void{
         cancelAnimationFrame(this.animation);
+        Move.putInstance(this);
         if(DoComplete && this.onComplete) this.onComplete();
     }
 
+    /**
+     * 更新起始点位置
+     */
     public updateAllPosition(): void{
         if(!this.startNode) return;
         this.startPos = this.startNode.convertToWorldSpaceAR(cc.v2(0, 0)),
