@@ -1,1 +1,15 @@
 js 内存解析： https://mp.weixin.qq.com/s/EuJzQajlU8rpZprWkXbJVg
+参考资料
+《JavaScript 高级程序设计（第4版）》
+
+Memory Management：https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management
+
+Visualizing memory management in V8 Engine：https://deepu.tech/memory-management-in-v8/
+
+Trash talk: the Orinoco garbage collector：https://v8.dev/blog/trash-talk
+
+Fast properties in V8：https://v8.dev/blog/fast-properties
+
+Concurrent marking in V8：https://v8.dev/blog/concurrent-marking
+
+Chrome DevTools：https://developers.google.com/web/tools/chrome-devtools
