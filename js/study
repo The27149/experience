@@ -1,4 +1,4 @@
-js 内存解析： https://mp.weixin.qq.com/s/EuJzQajlU8rpZprWkXbJVg
+﻿js 内存解析： https://mp.weixin.qq.com/s/EuJzQajlU8rpZprWkXbJVg
 参考资料
 《JavaScript 高级程序设计（第4版）》
 
@@ -13,3 +13,5 @@ Fast properties in V8：https://v8.dev/blog/fast-properties
 Concurrent marking in V8：https://v8.dev/blog/concurrent-marking
 
 Chrome DevTools：https://developers.google.com/web/tools/chrome-devtools
+
+问题查询网站：stackoverflow
