@@ -2,5 +2,8 @@
 
 
 使用时去掉所有*
+长的是颗粒度个人访问令牌，
+短的是经典个人访问令牌
+目前能正确推送的是短的经典令牌
 github_**pat_11AFRY64A0uYXpGLJh1DTs_bqFbzIGLyNaaXCujrlahyrLeUSvpiOPW0YDaGfyK0hO7CKQOIKQ7qp3jjTw
 ghp_**CuWs6DpRuT9OC0BCScmEuXd37BNguo3BxVPo
