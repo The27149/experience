@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    
+</body>
+<script>
+    let pro = function(){
+        let p = new Promise((resolve, reject) => {
+            //该做的异步操作
+
+            setTimeout(() => {
+                //resolve('获取到config');
+                reject('获取失败', 2);
+            }, 2000);
+            
+
+
+        })
+        
+
+        return p;
+    }
+
+    pro().then((data) => {
+
+        console.log(data);
+    }).catch((reson,data) => {
+
+        console.log('reson', reson);
+        console.log('data', data);
+    })
+
+    let aa = new Promise(() => {});
+    let bb = Promise.then === aa.then;
+    console.log(bb);        //false
+
+
+    function Proms(func){
+        
+    }
+
+</script>
+</html>
