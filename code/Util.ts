@@ -1,15 +1,35 @@
 export class Utils {
 
+    /**随机整数 */
+    public static randomInt(...nums: number[]) {
+        let min = Math.floor(Math.min(...nums));
+        let max = Math.floor(Math.max(...nums));
+        return Math.floor(Math.random() * (++max - min)) + min;
+    }
+
     ///////////////////////////////////数组方法扩展 start//////////////////////////////////////////////////////////////////
-    /**n个数组去重 */
-    static noRepeatOfArrays(...arrs: never[][]): any[] {
-        let list = [];
+    /**去重 */
+    static clearArrRepeat(arr: any[]): any[] {
+        let list: any[] = [];
+        if (Set) list = [...new Set(arr)];
+        else {
+            arr.reduce((pre, cur) => {
+                if (!pre.includes(cur)) pre.push(cur);
+                return pre;
+            }, list);
+        }
+        return list;
+    }
+
+    /**合并n个数组再去重 */
+    static concatArrsAndNoRepeat(...arrs: any[][]): any[] {
+        let list: any[] = [];
         arrs.forEach(arr => { list = list.concat(arr) })
-        return [...new Set(list)];
+        return this.clearArrRepeat(list);
     }
 
     /**提取n个数组中重复的部分 */
-    static getRepeatOfArrays(...arrs: any[][]): any[] {
+    static getRepeatInArrs(...arrs: any[][]): any[] {
         let list = arrs[0].filter(item => {
             let tag = true;
             for (let i = 1; i < arrs.length; i++) {
@@ -20,5 +40,50 @@ export class Utils {
         })
         return list;
     }
-    ///////////////////////////////////数组方法扩展 over//////////////////////////////////////////////////////////////////
+
+    /**从数组中随机取出n项 默认取一项 */
+    static randomItemOfArr<T>(list: T[], count: number = 1): T[] {
+        let res: T[] = [];
+        let copyList = [...list];
+        count = Math.min(count, copyList.length);
+        for (let i = 0; i < count; i++) {
+            let idx = Utils.randomInt(0, copyList.length - 1);
+            let ele = copyList.splice(idx, 1)[0]
+            res.push(ele);
+        }
+        return res;
+    }
+
+    /**是否为数组 */
+    static isArr(arr: any): boolean {
+        if (Array[`isArray`]) {
+            return Array.isArray(arr);
+        } else {
+            return Object.prototype.toString.call(arr) === `[object Array]`;
+        }
+    }
+
+    /**扁平化n层数组 默认无限层*/
+    static flatArr(list: any[], depth: number = -1): any[] {
+        return list.reduce((pre, cur) => {
+            let isArr = this.isArr(cur);
+            if (isArr) {
+                switch (true) {
+                    case depth < 0:
+                        pre.push(...this.flatArr(cur, -1));
+                        break;
+                    case depth > 0:
+                        pre.push(...this.flatArr(cur, depth - 1));
+                        break;
+                    case depth === 0:
+                        pre.push(cur);
+                        break;
+                }
+            } else {
+                pre.push(cur);
+            }
+            return pre;
+        }, []);
+    }
+    ///////////////////////////////////数组方法扩展 end//////////////////////////////////////////////////////////////////
 }
