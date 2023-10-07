@@ -1,10 +1,32 @@
 export class Utils {
 
     /**随机整数 */
-    public static randomInt(...nums: number[]) {
+    static randomInt(...nums: number[]) {
         let min = Math.floor(Math.min(...nums));
         let max = Math.floor(Math.max(...nums));
         return Math.floor(Math.random() * (++max - min)) + min;
+    }
+
+    /**
+     * 随机生成字符串
+     * @param len 字符串长度
+     * @param type 字符串类型，默认为1（ 1：数字，小写，大写；2：纯数字；3：大小写纯字母）
+     */
+    static randomString(len: number, type: number = 1): string {
+        let nums = `0123456789`;
+        let letters = `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`;
+        let source = ``;
+        switch (type) {
+            case 1: source = nums + letters; break;
+            case 2: source = nums; break;
+            case 3: source = letters; break;
+        }
+        let str = ``;
+        for (let i = 0; i < len; i++) {
+            let item = source.charAt(Math.floor(Math.random() * source.length));
+            str += item;
+        }
+        return str;
     }
 
     ///////////////////////////////////数组方法扩展 start//////////////////////////////////////////////////////////////////
