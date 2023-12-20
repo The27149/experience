@@ -1,2 +1,8 @@
 3.6引擎 适配size解释： https://mp.weixin.qq.com/s/RmXEyYxLqlLi369CwgLsow
+    2023.12.20自己理解： size直观对应关系，结构上从外到内：cc.view.getFrameSize()------表示dom中，canvas节点的css像素尺寸，可以称为外框尺寸
+                                                        cc.view.getCanvasSize()--------表示canvas画布的宽高尺寸，即cancas的width/height画布属性值，与外层的css像素没有关系，可以称为画布尺寸
+                                                        cc.view.getVisibleSize()=-------表示根据设计分辨率及适配策略适配后的窗口大小，数值上与cc.winSize相同，这两个的区别有待研究。例如画布750宽度，但是设计分辨率宽度为768且适配宽.所以visible的宽为768，高应该以宽和设计分辨率为标准去计算。同时visible这个尺寸也是场景中canvas节点（与dom中的canvas区分）的尺寸大小
+
+
+
 cocos 拓展文档： https://xj2e22fpu6.feishu.cn/docx/PU5Tdu8oHo1SbQxNOm8c2gWEnrg
