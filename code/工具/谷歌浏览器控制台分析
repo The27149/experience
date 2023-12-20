@@ -1,3 +1,7 @@
 1. 下载资源：可以使用浏览器插件：Save All Resources;
 
 2. 破解发f12触发 debugger: 找到触发debugger执行的地方， 源代码选项卡下有替换功能， 触发debugger的地方可以使用替换工具换为本地静态的文件，修改本地文件屏蔽掉debugger相关代码
+
+3. 好用的谷歌浏览器插件：Save All Resources-------下载网页资源
+                      Allow CORS: Access-Control-Allow-Origin------允许跨域
+                      Spector.js-------逐帧分析webgl绘制，分析drawCall
