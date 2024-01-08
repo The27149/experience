@@ -1,4 +1,9 @@
 export class EBUtils {
+    /**带颜色的打印 */
+    public static log(...params) {
+        // return;
+        console.log('%c >>>>>>>>>>>', 'color: orange', ...params);
+    }
 
     /**随机整数 */
     static randomInt(...nums: number[]) {
@@ -62,6 +67,14 @@ export class EBUtils {
             return tag;
         })
         return list;
+    }
+
+    /**删除数组中的一部分（删除的部分用数组表示） */
+    static spliceArr(sourceArr: any[], deleteArr: any[]) {
+        deleteArr.forEach(item => {
+            let idx = sourceArr.indexOf(item);
+            if (idx >= 0) sourceArr.splice(idx, 1);
+        })
     }
 
     /**从数组中随机取出n项 默认取一项 */

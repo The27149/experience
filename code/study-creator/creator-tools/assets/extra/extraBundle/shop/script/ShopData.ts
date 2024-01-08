@@ -1,4 +1,4 @@
-import { Global } from "../../../script/common/Global";
+
 
 
 const { ccclass, property } = cc._decorator;
@@ -27,7 +27,7 @@ export default class ShopData {
     private key: string = `shopProps`;
 
     private init() {
-        this.props = Global.ins.localData.getData(this.key);
+        // this.props = Global.ins.localData.getData(this.key);
         if (!this.props) {
             this.props = [];
             let config = this.getPropConfig();
@@ -44,7 +44,7 @@ export default class ShopData {
     }
 
     private save() {
-        Global.ins.localData.setData(this.key, this.props);
+        // Global.ins.localData.setData(this.key, this.props);
     }
 
     getAllProps() {

@@ -1,9 +1,6 @@
 
-const { ccclass } = cc._decorator;
-
 /**二进制状态开关 */
-@ccclass
-export default class BitSwitch<T extends number> {
+export default class EBBitSwitch<T extends number> {
 
     /**传入枚举长度初始化开关 */
     constructor(len: number) {
@@ -21,7 +18,7 @@ export default class BitSwitch<T extends number> {
     /**打开状态 */
     public open(...ids: T[]) {
         ids.forEach(id => {
-            this.state |= this.standard[(id as number)];
+            this.state |= this.standard[id];
         })
     }
 
@@ -44,12 +41,12 @@ export default class BitSwitch<T extends number> {
 
     /**切换状态 */
     public toggle(id: T) {
-        this.state ^= this.standard[(id as number)];
+        this.state ^= this.standard[id];
     }
 
     /**检查状态 返回true:打开；close:关闭 */
     public check(id: T): boolean {
-        let res = this.state & this.standard[(id as number)];
+        let res = this.state & this.standard[id];
         return !!res;
     }
 

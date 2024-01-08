@@ -1,6 +1,5 @@
-import CoinMgr from "../../../script/CoinMgr";
-import { GConst, Global } from "../../../script/common/Global";
-import Utils from "../../../script/common/Utils";
+
+import { EBCCTool } from "../../common/Export";
 import Shop from "./Shop";
 import ShopData, { IPropItem } from "./ShopData";
 
@@ -43,7 +42,7 @@ export default class ShopItem extends cc.Component {
         this.data = data;
         this.shop = shop;
         let path = `shop/texture/ball/lanqiu${data.type}`;
-        Utils.dynamicSpriteInBundle(this.propSp, GConst.customCompBundle, path);
+        EBCCTool.dynamicSprite(this.propSp, path);
         this.costLabel.string = data.cost.toString();
         this.setLock(data.isLock);
         this.setPick(data.isPick);
@@ -59,16 +58,17 @@ export default class ShopItem extends cc.Component {
         this.isPick = state;
         this.pickNode.active = state;
         ShopData.ins.setPick(this.data.type, state);
-        Global.ins.shopPickType = this.data.type;
+        // Global.ins.shopPickType = this.data.type;
     }
 
     private buy() {
-        let coin = CoinMgr.ins.getCoin();
+        // let coin = CoinMgr.ins.getCoin();
+        let coin = 1;
         if (coin < this.data.cost) {
-            Utils.log(`星星不够，买不了`);
+            // Utils.log(`星星不够，买不了`);
             return;
         } else {
-            CoinMgr.ins.changeCoin(-this.data.cost);
+            // CoinMgr.ins.changeCoin(-this.data.cost);
             this.setLock(false);
         }
     }
