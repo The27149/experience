@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .textarea {
+        display: block;
+    }
+
+    #key {
+        width: 300px;
+    }
+</style>
+
+<body>
+    <textarea class="textarea" name="" id="inText" cols="100" rows="20" placeholder="输入区"></textarea>
+    <hr>
+    <h4>密码提示：小学名称和小学班长名称？</h4>
+    <input type="text" name="" id="key" width="50" placeholder="输入密码 汉字编码大更长更安全">
+    <input type="button" id="encodeBtn" value="加密">
+    <input type="button" id="decodeBtn" value="解密">
+    <hr>
+    <textarea class="textarea" name="" id="outText" cols="100" rows="20" placeholder="显示区" readonly></textarea>
+
+
+</body>
+<script src="http://apps.bdimg.com/libs/jquery/1.6.4/jquery.min.js"></script>
+<script src="src/js/index.js"></script>
+<script>
+    $(`#encodeBtn`).click(() => {
+        handle(0);
+    })
+    $(`#decodeBtn`).click(() => {
+        handle(1);
+    })
+
+    //type 0加密， 1解密
+    function handle(type) {
+        let inText = $(`#inText`).val().trim();
+        let key = $(`#key`).val().trim();
+        $(`#outText`).val(``);
+        if (!inText || !key) return;
+        let encryption = new Encryption(key);
+        let str = type === 0 ? encryption.encodeHex(inText) : encryption.decodeHex(inText);
+        $(`#outText`).val(str);
+    }
+</script>
+
+</html>
