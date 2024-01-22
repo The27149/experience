@@ -28,7 +28,7 @@ export default class EBBitSwitch<T extends number> {
     }
 
     /**关闭状态 */
-    public close(ids: T[]) {
+    public close(...ids: T[]) {
         ids.forEach(id => {
             if (this.check(id)) this.toggle(id);
         })
