@@ -1,7 +1,9 @@
 ﻿
 github_**pat_11AFRY64A0uYXpGLJh1DTs_bqFbzIGLyNaaXCujrlahyrLeUSvpiOPW0YDaGfyK0hO7CKQOIKQ7qp3jjTw
 
- ghp**_RAJ9LgQXp9eQP3rfvlHkq2qU63MiOo111kxd
+ ghp**_qY6KqQhbg4ogmxvxdW3bbPmCdUf0Gv3wq08m
 初次使用时：
 1. 正常登录git
 2. 提交名称自定义，提交密码使用上面的加密串；
+
+要生成新的：在个人设置里面的Developer Settings 生成。
