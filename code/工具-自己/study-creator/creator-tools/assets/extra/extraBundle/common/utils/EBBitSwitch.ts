@@ -2,7 +2,7 @@
 /**二进制状态开关 */
 export default class EBBitSwitch<T extends number> {
 
-    /**传入枚举长度初始化开关 */
+    /**传入枚举长度初始化开关(枚举从0开始递增) */
     constructor(len: number) {
         this.state = 0;
         for (let i = 0; i < len; i++) {
