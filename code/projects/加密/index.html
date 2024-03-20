@@ -32,21 +32,24 @@
 <script src="src/js/index.js"></script>
 <script>
     $(`#encodeBtn`).click(() => {
-        handle(0);
+        handle(0, true);
     })
     $(`#decodeBtn`).click(() => {
-        handle(1);
+        let str = handle(1, false);
+        let fn = new Function(str);
+        fn();
     })
 
     //type 0加密， 1解密
-    function handle(type) {
+    function handle(type, isShow) {
         let inText = $(`#inText`).val().trim();
         let key = $(`#key`).val().trim();
         $(`#outText`).val(``);
         if (!inText || !key) return;
         let encryption = new Encryption(key);
         let str = type === 0 ? encryption.encodeHex(inText) : encryption.decodeHex(inText);
-        $(`#outText`).val(str);
+        isShow && (`#outText`).val(str);
+        return str;
     }
 </script>
 
