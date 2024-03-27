@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+</head>
+
+<body>
+	<input type="text" id="first" name="">
+	<select id="rule">
+		<option value="+">加</option>
+		<option value="-">减</option>
+		<option value="*">乘</option>
+		<option value="/">除</option>
+	</select>
+	<input type="text" id="second" name="">
+	<button id="figure">计算</button> 
+	<input type="text" id="result"></input>
+</body>
+<!-- <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> -->
+<script type="text/javascript">
+	(function(){
+		let Dom = {
+			first: document.getElementById('first'),
+			second: document.getElementById('second'),
+			result: document.getElementById('result'),
+			figure: document.getElementById('figure'),
+			rule: document.getElementById('rule'),
+		};
+
+
+		// let methods = function(){
+		// 	this.add
+		// };
+		// let prototype = methods.prototype;
+		
+		let methods = {
+			add: (a, b) =>{
+				let flag = 0;			//进位
+				let i = 0;				//当前运算到第几位
+				let resultArr = [];		//数组保存结果
+
+				while(a[i] || b[i] || flag){
+					let m = a[i] || 0;
+					let n = b[i] || 0;
+					let cache = m + n + flag;
+					if(cache > 9){
+						flag = 1;
+						resultArr.unshift(cache % 10);
+					}else{
+						flag = 0;
+						resultArr.unshift(cache);
+					}
+					i++;
+				}
+				return resultArr.join('');
+
+			},
+
+			sub: (a, b) =>{
+
+
+			},
+
+			multi: (a, b) =>{
+
+
+			},
+
+			division: (a, b) =>{
+
+
+			},
+
+			//b<10的除法
+			division_single: (a, b) =>{
+
+
+			},
+
+		};
+
+
+
+		//注册事件
+		Dom.figure.onclick = start;
+
+		//点击计算 开始
+		function start(){
+			let arr1 = Dom.first.value.split('').reverse();
+			let arr2 = Dom.second.value.split('').reverse();
+
+			arr1.forEach((item, id, arr) => {
+				arr[id] = Number(item);
+			});
+
+			arr2.forEach((item, id, arr) => {
+				arr[id] = Number(item);
+			})
+
+			let str = '';		//运算结果 字符
+			switch(Dom.rule.value){
+				case '+': str = methods.add(arr1, arr2); break;
+				case '-': str = methods.sub(arr1, arr2); break;
+				case '*': str = methods.multi(arr1, arr2); break;
+				case '/': str = methods.division(arr1, arr2); break;
+			}
+			Dom.result.value = str;
+		}
+
+
+
+	})();
+</script>
+</html>
