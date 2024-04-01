@@ -1,5 +1,5 @@
 /**数学方法 */
-export default class EBMath {
+export class EBMath {
     /**欧拉角转弧度 */
     static eulerToRad(e: number): number {
         return Math.PI * e / 180;
