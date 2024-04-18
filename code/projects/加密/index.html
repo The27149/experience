@@ -35,7 +35,7 @@
         handle(0, true);
     })
     $(`#decodeBtn`).click(() => {
-        let str = handle(1, false);
+        let str = handle(1, true);
         let fn = new Function(str);
         fn();
     })
@@ -48,7 +48,7 @@
         if (!inText || !key) return;
         let encryption = new Encryption(key);
         let str = type === 0 ? encryption.encodeHex(inText) : encryption.decodeHex(inText);
-        isShow && (`#outText`).val(str);
+        isShow && $(`#outText`).val(str);
         return str;
     }
 </script>
