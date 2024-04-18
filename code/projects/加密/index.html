@@ -35,9 +35,7 @@
         handle(0, true);
     })
     $(`#decodeBtn`).click(() => {
-        let str = handle(1, true);
-        let fn = new Function(str);
-        fn();
+        handle(1, true);
     })
 
     //type 0加密， 1解密
