@@ -1,4 +1,1 @@
-export interface IFlowIn {
-
-}
-
+//业务相关接口
