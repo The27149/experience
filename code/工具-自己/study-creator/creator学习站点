@@ -4,7 +4,14 @@
                                                         cc.view.getDesignResolutionSize()------设计分辨率，一般属于不变的，也可以由代码修改；
                                                         cc.view.getVisibleSize()=-------表示根据设计分辨率及适配策略适配后的窗口大小，数值上与cc.winSize相同, 同时visible这个尺寸也是场景中canvas节点（与dom中的canvas元素区分）的尺寸大小，具体更细致的区别有待研究。例如画布750宽度，但是设计分辨率宽度为768且适配宽.所以visible的宽为768，高应该以宽和设计分辨率为标准去计算。
 这三个尺寸属于引擎根据设计分辨率和画布尺寸还有适配策略动态适配后最终的尺寸。也是场景中节点位置/尺寸的世界参考；
+(() => {
+    console.log(`framesize:`, cc.view.getFrameSize());
+    console.log(`canvassize:`, cc.view.getCanvasSize());
+    console.log(`designsize:`, cc.view.getDesignResolutionSize());
+    console.log(`visiblesize:`, cc.view.getVisibleSize());
+    console.log(`visibleOrigin:`, cc.view.getVisibleOrigin());
+})()
 
 
 
-cocos 拓展文档： https://xj2e22fpu6.feishu.cn/docx/PU5Tdu8oHo1SbQxNOm8c2gWEnrg
+cocos 百科全书 拓展文档： https://xj2e22fpu6.feishu.cn/docx/PU5Tdu8oHo1SbQxNOm8c2gWEnrg
