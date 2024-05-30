@@ -4,3 +4,6 @@
 替换：$1$test($2){  
 3. \w 匹配符合js变量名称的字符，即字母数字下划线；
 4. vscode中，删除批量的console,所有的打印都有test标志串，可用这个正则然后全部替换：  ^.*(test).*$\n
+
+# 参考站点
+1. https://web.suda.edu.cn/hejun/chapter8/python_8_3.html#
