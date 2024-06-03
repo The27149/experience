@@ -10,6 +10,9 @@
     console.log(`designsize:`, cc.view.getDesignResolutionSize());
     console.log(`visiblesize:`, cc.view.getVisibleSize());
     console.log(`visibleOrigin:`, cc.view.getVisibleOrigin());
+    console.log(`visibleOriginInPx:`, cc.view.getVisibleOriginInPixel());
+    console.log(`visiblesizeInPx:`, cc.view.getVisibleSizeInPixel());
+    console.log(`getViewportRect:`, cc.view.getViewportRect());
 })()
 
 
