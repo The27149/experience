@@ -1,7 +1,10 @@
 ﻿
 github_**pat_11AFRY64A0uYXpGLJh1DTs_bqFbzIGLyNaaXCujrlahyrLeUSvpiOPW0YDaGfyK0hO7CKQOIKQ7qp3jjTw
 
-ghp_**QjDnwrLoDgfTX2zL0Fd1ORGEjIHBTP43J5US
+
+ghp_**1WoAhOJXE546geQjtBYgR1YHGRoZqs3IC6nF
+
+
 初次使用时：
 1. 正常登录git
 2. 提交名称自定义，提交密码使用上面的加密串，去掉**；
