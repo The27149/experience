@@ -122,4 +122,15 @@ export class EBUtils {
         }, []);
     }
     ///////////////////////////////////数组方法扩展 end//////////////////////////////////////////////////////////////////
+
+    /**防抖函数 ms */
+    static debounce(fn: Function, time: number) {
+        let id;
+        return function (...args) {
+            clearTimeout(id);
+            id = setTimeout(() => {
+                fn(...args);
+            }, time);
+        }
+    }
 }
