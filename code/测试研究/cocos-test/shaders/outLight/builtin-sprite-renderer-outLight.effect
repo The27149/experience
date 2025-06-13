@@ -1,0 +1,99 @@
+// Copyright (c) 2017-2020 Xiamen Yaji Software Co., Ltd.
+CCEffect %{
+  techniques:
+  - name: default
+    passes:
+    - vert: spriteRender-vs:vert
+      frag: spriteRender-fs:frag
+      
+      depthStencilState:
+        depthTest: true
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState:
+        cullMode: none
+}%
+
+CCProgram spriteRender-vs %{
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+  #include <builtin/uniforms/cc-local>
+
+  in vec3 a_position;
+  in vec2 a_texCoord;
+
+  out vec2 uv;
+
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1);
+
+    pos = cc_matViewProj * cc_matWorld * pos;
+
+    uv = vec2(a_texCoord.x, 1.0 - a_texCoord.y);
+
+    return pos;
+  }
+}%
+
+CCProgram spriteRender-fs %{
+  precision highp float;
+
+  in vec2 uv;
+  #pragma builtin(local)
+  layout(set = 2, binding = 12) uniform sampler2D cc_spriteTexture;
+
+  vec4 frag () {
+    vec4 texColor = texture(cc_spriteTexture, uv);
+    float center = texColor.a;
+    if(center > 0.1){
+      return texColor;
+    }
+
+    //描边
+    // vec4 glowColor = vec4(0, 1.0, 0, 1.0);
+    // float strength = 2.0;
+    // float offset = 0.01;
+    // // 边缘检测
+    // float up     = texture(cc_spriteTexture, uv + vec2(0, +offset)).a;
+    // float down   = texture(cc_spriteTexture, uv + vec2(0, -offset)).a;
+    // float left   = texture(cc_spriteTexture, uv + vec2(-offset, 0)).a;
+    // float right  = texture(cc_spriteTexture, uv + vec2(+offset, 0)).a;
+
+    // float diff = abs(center - up) + abs(center - down)
+    //           + abs(center - left) + abs(center - right);
+
+    // float edge = clamp(diff * strength, 0.0, 1.0);
+
+    
+    // return mix(texColor, glowColor, edge);
+
+
+  // 多层采样叠加 发散
+    vec4 glowColor = vec4(0, 1.0, 0, 1.0);
+    float total = 0.0;
+    const int n = 5;
+    float unit = 0.005;
+    for (int i = -n; i <= n; i++) { 
+      float offset_x = unit * float(i); // 越远偏移越大（像素单位）
+      for(int j = -n; j <= n; j++) {
+        float offset_y = unit * float(j); // 越远偏移越大（像素单位）
+        float temp = texture(cc_spriteTexture, uv + vec2(offset_x, offset_y)).a;
+        total += temp;
+      }
+    }
+    float row = float(n * 2 + 1);
+    float col = float(n * 2 + 1);
+    float totalEdge = total / (row * col);
+
+    // 控制最大值在 1.0 以内
+    totalEdge = smoothstep(0.0, 1.0, totalEdge * 1.5);
+    glowColor.a = totalEdge;
+    return glowColor;
+  }
+}%
+
