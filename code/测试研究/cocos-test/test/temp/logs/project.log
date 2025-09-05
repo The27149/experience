@@ -1,0 +1,29 @@
+2025-6-17 10:55:50 - log: Load engine in D:\app\cocos\editors\Creator\3.8.5\resources\resources\3d\engine
+2025-6-17 10:55:52 - log: Register native engine in D:\app\cocos\editors\Creator\3.8.5\resources\resources\3d\engine\native
+2025-6-17 10:55:53 - log: Request namespace: device-list
+2025-6-17 10:56:05 - error: msg not exist!Error: msg not exist!
+    at D:\app\cocos\editors\Creator\3.8.5\resources\app.asar\extension\cocos-service\service\pages\index.js:1:21544
+    at new Promise (<anonymous>)
+    at Object.pluginMsg (D:\app\cocos\editors\Creator\3.8.5\resources\app.asar\extension\cocos-service\service\pages\index.js:1:21429)
+    at D:\app\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5083
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (D:\app\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5044)
+    at EventEmitter.emit (node:events:519:28)
+    at IpcRenderer.<anonymous> (D:\app\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3858)
+    at IpcRenderer.emit (node:events:519:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:2:8837)
+2025-6-17 10:56:15 - log: [Scene] meshopt wasm decoder initialized
+2025-6-17 10:56:15 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2025-6-17 10:56:15 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2025-6-17 10:56:15 - log: [Scene] [PHYSICS]: using builtin.
+2025-6-17 10:56:15 - log: [Scene] Cocos Creator v3.8.5
+2025-6-17 10:56:15 - log: [Scene] Using custom pipeline: Builtin
+2025-6-17 10:56:16 - log: [Scene] [PHYSICS]: switch from builtin to bullet.
+2025-6-17 10:56:16 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to box2d.
+2025-6-17 11:46:07 - warn: [Assets] 无法从文件名 问题记录 中获取到有效的类名，已自动更名为 NewComponentWarn: [Assets] 无法从文件名 问题记录 中获取到有效的类名，已自动更名为 NewComponent
+    at console.warn (D:\app\cocos\editors\Creator\3.8.5\resources\app.asar\node_modules\@sentry\src\instrument\console.ts:40:20)
+    at NewConsole.warn (D:\app\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1510)
+    at Object.create (D:\app\cocos\editors\Creator\3.8.5\resources\app.asar\modules\engine-extensions\extensions\engine-extends\dist\handler\assets\typescript.ccc:1:3364)
+    at AssetHandlerManager.createAsset (D:\app\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-handler-manager.ccc:1:8221)
+    at AssetManager.createAsset (D:\app\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\manager\asset-manager.ccc:4:264)
+    at Ipc.<anonymous> (D:\app\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\asset-db\dist\worker\ipc.ccc:1:530)

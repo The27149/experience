@@ -1,0 +1,103 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\shader.meta": {
+      "time": 1750130753084.763
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\shader": {
+      "time": 1750130767608.065,
+      "uuid": "06bd33a8-5723-4c3f-8959-dd33193d3865"
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\scene.meta": {
+      "time": 1750130759176.661
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\scene": {
+      "time": 1750130770373.146,
+      "uuid": "01a31a0a-ca6b-4f61-b585-a438cbfd0f46"
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\shader\\default-sprite-renderer-material.mtl.meta": {
+      "time": 1749807335123.5122
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\shader\\default-sprite-renderer-material.mtl": {
+      "time": 1749807559213.5564,
+      "uuid": "97f64dcd-8143-482a-b399-3b045eebcd64"
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\shader\\builtin-sprite-renderer.effect.meta": {
+      "time": 1749807835787.3108
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\shader\\builtin-sprite-renderer.effect": {
+      "time": 1750130864083.3916,
+      "uuid": "c575ae42-fb37-4a94-9321-11120ae3239d"
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\shader\\builtin-sprite-renderer-test.effect.meta": {
+      "time": 1749807638058.274
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\shader\\builtin-sprite-renderer-test.effect": {
+      "time": 1750133942333.858,
+      "uuid": "449d4b7e-2a36-4324-8a2e-a93c4777eb3b"
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\scene\\scene.scene.meta": {
+      "time": 1749807223695.232
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\scene\\scene.scene": {
+      "time": 1749808277964.1316,
+      "uuid": "465cd5dc-a2b6-4167-9950-246cc89c6493"
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\texture.meta": {
+      "time": 1750130776745.2766
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\texture": {
+      "time": 1750131085947.6626,
+      "uuid": "a77cf4d2-525f-4bdc-a49c-14133aff5c48"
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\texture\\flower.png.meta": {
+      "time": 1750131121705.503
+    },
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\texture\\flower.png": {
+      "time": 1749724641000.934,
+      "uuid": "ae654832-18f7-4c5c-be9d-c099b1eb0c9e"
+    }
+  },
+  "missing": {
+    "2ef93d33-ec7b-494f-ae19-6cf541711c05": {
+      "path": "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\test.ts",
+      "time": 1749807212757.95,
+      "removeTime": 1749807217285
+    },
+    "5ff639c8-1f19-45a4-827a-58f8eeba6da2": {
+      "path": "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\builtin-sprite-test.effect",
+      "time": 1749807484246.0532,
+      "removeTime": 1749807553136
+    },
+    "449d4b7e-2a36-4324-8a2e-a93c4777eb3b": {
+      "path": "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\builtin-sprite-renderer-test.effect",
+      "time": 1750130738264.2683,
+      "removeTime": 1750130767613
+    },
+    "97f64dcd-8143-482a-b399-3b045eebcd64": {
+      "path": "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\default-sprite-renderer-material.mtl",
+      "time": 1749807559213.5564,
+      "removeTime": 1750130767610
+    },
+    "c575ae42-fb37-4a94-9321-11120ae3239d": {
+      "path": "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\builtin-sprite-renderer.effect",
+      "time": 1741846429315.2795,
+      "removeTime": 1750130767612
+    },
+    "465cd5dc-a2b6-4167-9950-246cc89c6493": {
+      "path": "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\scene.scene",
+      "time": 1749808277964.1316,
+      "removeTime": 1750130770374
+    },
+    "a04facd0-2990-4129-a1c9-c76cf3a188d0": {
+      "path": "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\builtin-sprite-renderer-test.effect",
+      "time": 1750130787924.2131,
+      "removeTime": 1750130802128
+    },
+    "b54959cd-21f7-426a-a099-221e4ed3ec0d": {
+      "path": "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\问题记录.ts",
+      "time": 1750131967152.6794,
+      "removeTime": 1750132112025
+    }
+  }
+}

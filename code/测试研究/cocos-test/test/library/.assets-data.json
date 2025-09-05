@@ -1,0 +1,98 @@
+{
+  "2ef93d33-ec7b-494f-ae19-6cf541711c05": {
+    "url": "db://assets/test.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "465cd5dc-a2b6-4167-9950-246cc89c6493": {
+    "url": "db://assets/scene/scene.scene",
+    "value": {
+      "depends": [
+        "465cd5dc-a2b6-4167-9950-246cc89c6493",
+        "97f64dcd-8143-482a-b399-3b045eebcd64",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "5ff639c8-1f19-45a4-827a-58f8eeba6da2": {
+    "url": "db://assets/builtin-sprite-test.effect",
+    "value": {},
+    "versionCode": 1
+  },
+  "97f64dcd-8143-482a-b399-3b045eebcd64": {
+    "url": "db://assets/shader/default-sprite-renderer-material.mtl",
+    "value": {
+      "depends": [
+        "449d4b7e-2a36-4324-8a2e-a93c4777eb3b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "449d4b7e-2a36-4324-8a2e-a93c4777eb3b": {
+    "url": "db://assets/shader/builtin-sprite-renderer-test.effect",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c575ae42-fb37-4a94-9321-11120ae3239d": {
+    "url": "db://assets/shader/builtin-sprite-renderer.effect",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "06bd33a8-5723-4c3f-8959-dd33193d3865": {
+    "url": "db://assets/shader",
+    "value": {},
+    "versionCode": 1
+  },
+  "01a31a0a-ca6b-4f61-b585-a438cbfd0f46": {
+    "url": "db://assets/scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "a77cf4d2-525f-4bdc-a49c-14133aff5c48": {
+    "url": "db://assets/texture",
+    "value": {},
+    "versionCode": 1
+  },
+  "a04facd0-2990-4129-a1c9-c76cf3a188d0": {
+    "url": "db://assets/builtin-sprite-renderer-test.effect",
+    "value": {},
+    "versionCode": 1
+  },
+  "ae654832-18f7-4c5c-be9d-c099b1eb0c9e": {
+    "url": "db://assets/texture/flower.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ae654832-18f7-4c5c-be9d-c099b1eb0c9e@6c48a": {
+    "url": "db://assets/texture/flower.png@6c48a",
+    "value": {
+      "depends": [
+        "ae654832-18f7-4c5c-be9d-c099b1eb0c9e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ae654832-18f7-4c5c-be9d-c099b1eb0c9e@f9941": {
+    "url": "db://assets/texture/flower.png@f9941",
+    "value": {
+      "depends": [
+        "ae654832-18f7-4c5c-be9d-c099b1eb0c9e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b54959cd-21f7-426a-a099-221e4ed3ec0d": {
+    "url": "db://assets/问题记录.ts",
+    "value": {},
+    "versionCode": 1
+  }
+}

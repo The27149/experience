@@ -1,0 +1,60 @@
+{
+  "path": {
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\builtin-sprite.effect": [
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\builtin-sprite-renderer.effect": [
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\spriteRender-vs.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\spriteRender-fs.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\spriteRender-vs.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\spriteRender-fs.chunk"
+    ],
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\shader\\builtin-sprite-renderer.effect": [
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\spriteRender-vs.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\spriteRender-fs.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\spriteRender-vs.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\spriteRender-fs.chunk"
+    ],
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\shader\\builtin-sprite-renderer-test.effect": [
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\spriteRender-vs.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\spriteRender-fs.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\spriteRender-vs.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\chunks\\spriteRender-fs.chunk"
+    ]
+  },
+  "uuid": {
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\default-sprite-renderer-material.mtl": [
+      "6ef1defe-7997-477a-9b35-c18859ff8066",
+      "5ff639c8-1f19-45a4-827a-58f8eeba6da2",
+      "449d4b7e-2a36-4324-8a2e-a93c4777eb3b"
+    ],
+    "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\shader\\default-sprite-renderer-material.mtl": [
+      "449d4b7e-2a36-4324-8a2e-a93c4777eb3b"
+    ]
+  }
+}

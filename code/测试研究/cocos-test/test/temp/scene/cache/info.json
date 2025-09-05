@@ -1,0 +1,11 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "Intel(R) Xeon(R) Gold 6248R CPU @ 3.00GHz",
+        "version": "Windows 11 Enterprise"
+    },
+    "sceneListMap": {
+        "465cd5dc-a2b6-4167-9950-246cc89c6493": "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets\\scene.scene"
+    },
+    "deviceMd5": "6a46d7c9e2dca63d54837631291d164e"
+}
