@@ -1,472 +1,0 @@
-2025-6-17 10:56:02-log: Cannot access game frame or container.
-2025-6-17 10:56:03-debug: asset-db:require-engine-code (1313ms)
-2025-6-17 10:56:03-log: meshopt wasm decoder initialized
-2025-6-17 10:56:03-log: [bullet]:bullet wasm lib loaded.
-2025-6-17 10:56:03-log: [box2d]:box2d wasm lib loaded.
-2025-6-17 10:56:03-log: Cocos Creator v3.8.5
-2025-6-17 10:56:03-log: Using legacy pipeline
-2025-6-17 10:56:03-log: Forward render pipeline initialized.
-2025-6-17 10:56:03-debug: [Assets Memory track]: asset-db-plugin-register: programming start:79.82MB, end 82.99MB, increase: 3.17MB
-2025-6-17 10:56:03-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:31.33MB, end 78.96MB, increase: 47.63MB
-2025-6-17 10:56:05-debug: [Assets Memory track]: asset-db-plugin-register: project start:79.67MB, end 209.30MB, increase: 129.63MB
-2025-6-17 10:56:05-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:78.98MB, end 209.33MB, increase: 130.35MB
-2025-6-17 10:56:05-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:206.13MB, end 209.23MB, increase: 3.10MB
-2025-6-17 10:56:05-debug: [Assets Memory track]: asset-db-plugin-register: builder start:83.03MB, end 205.89MB, increase: 122.87MB
-2025-6-17 10:56:05-debug: asset-db:worker-init: initPlugin (2129ms)
-2025-6-17 10:56:05-debug: [Assets Memory track]: asset-db:worker-init start:31.32MB, end 209.45MB, increase: 178.13MB
-2025-6-17 10:56:05-debug: Run asset db hook programming:beforePreStart ...
-2025-6-17 10:56:05-debug: Run asset db hook engine-extends:beforePreStart ...
-2025-6-17 10:56:05-debug: Run asset db hook programming:beforePreStart success!
-2025-6-17 10:56:05-debug: Run asset db hook engine-extends:beforePreStart success!
-2025-6-17 10:56:09-debug: asset-db:worker-init (7223ms)
-2025-6-17 10:56:09-debug: asset-db-hook-programming-beforePreStart (3519ms)
-2025-6-17 10:56:09-debug: asset-db-hook-engine-extends-beforePreStart (3518ms)
-2025-6-17 10:56:11-debug: Preimport db internal success
-2025-6-17 10:56:11-debug: Run asset db hook programming:afterPreStart ...
-2025-6-17 10:56:11-debug: starting packer-driver...
-2025-6-17 10:56:11-debug: Preimport db assets success
-2025-6-17 10:56:11-debug: initialize scripting environment...
-2025-6-17 10:56:11-debug: [[Executor]] prepare before lock
-2025-6-17 10:56:11-debug: Set detail map pack:///resolution-detail-map.json: {}
-2025-6-17 10:56:11-debug: [[Executor]] prepare after unlock
-2025-6-17 10:56:11-debug: Run asset db hook programming:afterPreStart success!
-2025-6-17 10:56:11-debug: Run asset db hook engine-extends:afterPreStart ...
-2025-6-17 10:56:11-debug: Start up the 'internal' database...
-2025-6-17 10:56:11-debug: Run asset db hook engine-extends:afterPreStart success!
-2025-6-17 10:56:14-debug: asset-db-hook-programming-afterPreStart (2857ms)
-2025-6-17 10:56:14-debug: asset-db-hook-engine-extends-afterPreStart (2209ms)
-2025-6-17 10:56:14-debug: asset-db:worker-effect-data-processing (2208ms)
-2025-6-17 10:56:14-debug: Start up the 'assets' database...
-2025-6-17 10:56:14-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\scene.scenebackground: #aaff85; color: #000;color: #000;
-2025-6-17 10:56:14-debug: asset-db:worker-startup-database[internal] (8428ms)
-2025-6-17 10:56:14-debug: lazy register asset handler *
-2025-6-17 10:56:14-debug: lazy register asset handler directory
-2025-6-17 10:56:14-debug: lazy register asset handler json
-2025-6-17 10:56:14-debug: lazy register asset handler spine-data
-2025-6-17 10:56:14-debug: lazy register asset handler text
-2025-6-17 10:56:14-debug: lazy register asset handler dragonbones-atlas
-2025-6-17 10:56:14-debug: lazy register asset handler dragonbones
-2025-6-17 10:56:14-debug: lazy register asset handler terrain
-2025-6-17 10:56:14-debug: lazy register asset handler javascript
-2025-6-17 10:56:14-debug: lazy register asset handler prefab
-2025-6-17 10:56:14-debug: lazy register asset handler typescript
-2025-6-17 10:56:14-debug: lazy register asset handler sprite-frame
-2025-6-17 10:56:14-debug: lazy register asset handler scene
-2025-6-17 10:56:14-debug: lazy register asset handler buffer
-2025-6-17 10:56:14-debug: lazy register asset handler tiled-map
-2025-6-17 10:56:14-debug: lazy register asset handler alpha-image
-2025-6-17 10:56:14-debug: lazy register asset handler texture-cube
-2025-6-17 10:56:14-debug: lazy register asset handler texture
-2025-6-17 10:56:14-debug: lazy register asset handler render-texture
-2025-6-17 10:56:14-debug: lazy register asset handler texture-cube-face
-2025-6-17 10:56:14-debug: lazy register asset handler erp-texture-cube
-2025-6-17 10:56:14-debug: lazy register asset handler rt-sprite-frame
-2025-6-17 10:56:14-debug: lazy register asset handler gltf
-2025-6-17 10:56:14-debug: lazy register asset handler image
-2025-6-17 10:56:14-debug: lazy register asset handler gltf-animation
-2025-6-17 10:56:14-debug: lazy register asset handler gltf-mesh
-2025-6-17 10:56:14-debug: lazy register asset handler gltf-skeleton
-2025-6-17 10:56:14-debug: lazy register asset handler sign-image
-2025-6-17 10:56:14-debug: lazy register asset handler gltf-material
-2025-6-17 10:56:14-debug: lazy register asset handler gltf-embeded-image
-2025-6-17 10:56:14-debug: lazy register asset handler gltf-scene
-2025-6-17 10:56:14-debug: lazy register asset handler material
-2025-6-17 10:56:14-debug: lazy register asset handler physics-material
-2025-6-17 10:56:14-debug: lazy register asset handler fbx
-2025-6-17 10:56:14-debug: lazy register asset handler effect
-2025-6-17 10:56:14-debug: lazy register asset handler effect-header
-2025-6-17 10:56:14-debug: lazy register asset handler animation-clip
-2025-6-17 10:56:14-debug: lazy register asset handler animation-graph
-2025-6-17 10:56:14-debug: lazy register asset handler animation-graph-variant
-2025-6-17 10:56:14-debug: lazy register asset handler audio-clip
-2025-6-17 10:56:14-debug: lazy register asset handler bitmap-font
-2025-6-17 10:56:14-debug: lazy register asset handler particle
-2025-6-17 10:56:14-debug: lazy register asset handler animation-mask
-2025-6-17 10:56:14-debug: lazy register asset handler sprite-atlas
-2025-6-17 10:56:14-debug: lazy register asset handler auto-atlas
-2025-6-17 10:56:14-debug: lazy register asset handler render-pipeline
-2025-6-17 10:56:14-debug: lazy register asset handler render-stage
-2025-6-17 10:56:14-debug: lazy register asset handler label-atlas
-2025-6-17 10:56:14-debug: lazy register asset handler render-flow
-2025-6-17 10:56:14-debug: lazy register asset handler instantiation-material
-2025-6-17 10:56:14-debug: lazy register asset handler ttf-font
-2025-6-17 10:56:14-debug: lazy register asset handler instantiation-mesh
-2025-6-17 10:56:14-debug: lazy register asset handler instantiation-animation
-2025-6-17 10:56:14-debug: lazy register asset handler video-clip
-2025-6-17 10:56:14-debug: lazy register asset handler instantiation-skeleton
-2025-6-17 10:56:14-debug: asset-db:worker-startup-database[assets] (3160ms)
-2025-6-17 10:56:14-debug: asset-db:start-database (8519ms)
-2025-6-17 10:56:14-debug: asset-db:ready (20134ms)
-2025-6-17 10:56:14-debug: init worker message success
-2025-6-17 10:56:14-debug: programming:execute-script (9ms)
-2025-6-17 10:56:15-debug: [Build Memory track]: builder:worker-init start:157.10MB, end 170.29MB, increase: 13.19MB
-2025-6-17 10:56:15-debug: builder:worker-init (742ms)
-2025-6-17 10:56:21-debug: refresh db internal success
-2025-6-17 10:56:21-debug: refresh db assets success
-2025-6-17 10:56:21-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 10:56:21-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 10:56:21-debug: asset-db:refresh-all-database (109ms)
-2025-6-17 10:56:21-debug: asset-db:worker-effect-data-processing (2ms)
-2025-6-17 10:56:21-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-6-17 11:25:41-debug: refresh db internal success
-2025-6-17 11:25:41-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:25:41-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 11:25:41-debug: refresh db assets success
-2025-6-17 11:25:41-debug: asset-db:refresh-all-database (199ms)
-2025-6-17 11:25:41-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:25:42-debug: recompile effect.bin success
-2025-6-17 11:25:42-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 11:25:42-debug: asset-db:worker-effect-data-processing (473ms)
-2025-6-17 11:25:42-debug: asset-db-hook-engine-extends-afterRefresh (474ms)
-2025-6-17 11:25:53-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader...
-2025-6-17 11:25:53-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shaderbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:25:53-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets success
-2025-6-17 11:25:59-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\scene...
-2025-6-17 11:25:59-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\scenebackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:25:59-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets success
-2025-6-17 11:26:07-debug: start move asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\builtin-sprite-renderer.effect -> D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer.effect...
-2025-6-17 11:26:07-debug: start move asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\builtin-sprite-renderer-test.effect -> D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effect...
-2025-6-17 11:26:07-debug: start move asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\default-sprite-renderer-material.mtl -> D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtl...
-2025-6-17 11:26:07-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtl...
-2025-6-17 11:26:07-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer.effect...
-2025-6-17 11:26:07-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effect...
-2025-6-17 11:26:07-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:26:07-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:26:07-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:26:07-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader success
-2025-6-17 11:26:07-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader success
-2025-6-17 11:26:07-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets...
-2025-6-17 11:26:07-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets...
-2025-6-17 11:26:07-debug: move asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\default-sprite-renderer-material.mtl -> D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtl success
-2025-6-17 11:26:07-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader success
-2025-6-17 11:26:07-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets...
-2025-6-17 11:26:07-debug: move asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\builtin-sprite-renderer.effect -> D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer.effect success
-2025-6-17 11:26:07-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test success
-2025-6-17 11:26:07-debug: move asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\builtin-sprite-renderer-test.effect -> D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effect success
-2025-6-17 11:26:07-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test success
-2025-6-17 11:26:07-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test success
-2025-6-17 11:26:07-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:26:07-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shaderbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:26:08-debug: recompile effect.bin success
-2025-6-17 11:26:10-debug: start move asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\scene.scene -> D:\personal\git\experience\code\测试研究\cocos-test\test\assets\scene\scene.scene...
-2025-6-17 11:26:10-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\scene\scene.scene...
-2025-6-17 11:26:10-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\scene\scene.scenebackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:26:10-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets\scene success
-2025-6-17 11:26:10-debug: move asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\scene.scene -> D:\personal\git\experience\code\测试研究\cocos-test\test\assets\scene\scene.scene success
-2025-6-17 11:26:10-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets...
-2025-6-17 11:26:10-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test success
-2025-6-17 11:26:10-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\scenebackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:26:16-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\texture...
-2025-6-17 11:26:16-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\texturebackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:26:16-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets success
-2025-6-17 11:26:35-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:26:35-debug: refresh db internal success
-2025-6-17 11:26:35-debug: refresh db assets success
-2025-6-17 11:26:35-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 11:26:35-debug: asset-db:refresh-all-database (149ms)
-2025-6-17 11:26:36-debug: recompile effect.bin success
-2025-6-17 11:26:36-debug: asset-db:worker-effect-data-processing (582ms)
-2025-6-17 11:26:36-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 11:26:36-debug: asset-db-hook-engine-extends-afterRefresh (583ms)
-2025-6-17 11:26:41-debug: start remove asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets\builtin-sprite-renderer-test.effect...
-2025-6-17 11:26:42-debug: refresh db internal success
-2025-6-17 11:26:42-debug: %cDestroy%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\builtin-sprite-renderer-test.effectbackground: #ffb8b8; color: #000;color: #000;
-2025-6-17 11:26:42-debug: refresh db assets success
-2025-6-17 11:26:42-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 11:26:42-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 11:26:42-debug: asset-db:refresh-all-database (103ms)
-2025-6-17 11:26:42-debug: asset-db:worker-effect-data-processing (1ms)
-2025-6-17 11:26:42-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2025-6-17 11:26:42-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\builtin-sprite-renderer-test.effect...
-2025-6-17 11:26:42-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets success
-2025-6-17 11:26:42-debug: remove asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets\builtin-sprite-renderer-test.effect success
-2025-6-17 11:27:22-debug: refresh db internal success
-2025-6-17 11:27:22-debug: refresh db assets success
-2025-6-17 11:27:22-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 11:27:22-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 11:27:22-debug: asset-db:refresh-all-database (113ms)
-2025-6-17 11:27:22-debug: asset-db:worker-effect-data-processing (1ms)
-2025-6-17 11:27:22-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-6-17 11:27:54-debug: refresh db internal success
-2025-6-17 11:27:54-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:27:54-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:27:54-debug: refresh db assets success
-2025-6-17 11:27:54-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 11:27:54-debug: asset-db:refresh-all-database (123ms)
-2025-6-17 11:27:54-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:27:55-debug: recompile effect.bin success
-2025-6-17 11:27:55-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 11:27:55-debug: asset-db:worker-effect-data-processing (478ms)
-2025-6-17 11:27:55-debug: asset-db-hook-engine-extends-afterRefresh (478ms)
-2025-6-17 11:30:53-debug: refresh db internal success
-2025-6-17 11:30:53-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:30:53-debug: refresh db assets success
-2025-6-17 11:30:53-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 11:30:53-debug: asset-db:refresh-all-database (144ms)
-2025-6-17 11:30:53-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:30:53-debug: recompile effect.bin success
-2025-6-17 11:30:53-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 11:30:53-debug: asset-db:worker-effect-data-processing (518ms)
-2025-6-17 11:30:53-debug: asset-db-hook-engine-extends-afterRefresh (519ms)
-2025-6-17 11:31:25-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\texture\flower.png...
-2025-6-17 11:31:25-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\texture\flower.pngbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:31:25-debug: asset-db:reimport-assetD:\personal\git\experience\code\测试研究\cocos-test\test\assets\texture\flower.png (2ms)
-2025-6-17 11:31:26-debug: refresh db internal success
-2025-6-17 11:31:26-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\texture\flower.png@6c48abackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:31:26-log: 资源数据库已锁定，资源操作(bound autoRefreshAssetLazy)将会延迟响应，请稍侯
-2025-6-17 11:31:26-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets\texture success
-2025-6-17 11:31:26-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\texturebackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:31:26-debug: refresh db assets success
-2025-6-17 11:31:26-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 11:31:26-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 11:31:26-debug: asset-db:worker-effect-data-processing (4ms)
-2025-6-17 11:31:26-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
-2025-6-17 11:31:26-debug: asset-db:refresh-all-database (711ms)
-2025-6-17 11:32:01-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\texture\flower.pngbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:32:01-debug: %cReImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\texture\flower.png@6c48abackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:32:01-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\texture\flower.png@f9941background: #aaff85; color: #000;color: #000;
-2025-6-17 11:32:01-debug: asset-db:reimport-assetae654832-18f7-4c5c-be9d-c099b1eb0c9e (165ms)
-2025-6-17 11:33:02-debug: refresh db internal success
-2025-6-17 11:33:02-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:33:02-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 11:33:02-debug: refresh db assets success
-2025-6-17 11:33:02-debug: asset-db:refresh-all-database (165ms)
-2025-6-17 11:33:02-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:33:03-debug: recompile effect.bin success
-2025-6-17 11:33:03-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 11:33:03-debug: asset-db:worker-effect-data-processing (538ms)
-2025-6-17 11:33:03-debug: asset-db-hook-engine-extends-afterRefresh (539ms)
-2025-6-17 11:33:12-debug: refresh db internal success
-2025-6-17 11:33:12-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:33:12-debug: refresh db assets success
-2025-6-17 11:33:12-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 11:33:12-debug: asset-db:refresh-all-database (243ms)
-2025-6-17 11:33:12-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:33:13-debug: recompile effect.bin success
-2025-6-17 11:33:13-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 11:33:13-debug: asset-db:worker-effect-data-processing (465ms)
-2025-6-17 11:33:13-debug: asset-db-hook-engine-extends-afterRefresh (465ms)
-2025-6-17 11:33:22-debug: refresh db internal success
-2025-6-17 11:33:22-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:33:22-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 11:33:22-debug: refresh db assets success
-2025-6-17 11:33:22-debug: asset-db:refresh-all-database (171ms)
-2025-6-17 11:33:22-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:33:22-debug: recompile effect.bin success
-2025-6-17 11:33:22-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 11:33:22-debug: asset-db:worker-effect-data-processing (491ms)
-2025-6-17 11:33:22-debug: asset-db-hook-engine-extends-afterRefresh (491ms)
-2025-6-17 11:33:31-debug: refresh db internal success
-2025-6-17 11:33:31-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:33:31-debug: refresh db assets success
-2025-6-17 11:33:31-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 11:33:31-debug: asset-db:refresh-all-database (131ms)
-2025-6-17 11:33:31-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:33:31-debug: recompile effect.bin success
-2025-6-17 11:33:31-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 11:33:31-debug: asset-db:worker-effect-data-processing (506ms)
-2025-6-17 11:33:31-debug: asset-db-hook-engine-extends-afterRefresh (506ms)
-2025-6-17 11:45:47-debug: refresh db internal success
-2025-6-17 11:45:47-debug: refresh db assets success
-2025-6-17 11:45:47-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 11:45:47-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 11:45:47-debug: asset-db:refresh-all-database (97ms)
-2025-6-17 11:45:47-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
-2025-6-17 11:46:07-warn: 无法从文件名 问题记录 中获取到有效的类名，已自动更名为 NewComponent
-2025-6-17 11:46:07-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\问题记录.ts...
-2025-6-17 11:46:07-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\问题记录.tsbackground: #aaff85; color: #000;color: #000;
-2025-6-17 11:46:07-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets success
-2025-6-17 11:48:28-debug: refresh db internal success
-2025-6-17 11:48:28-debug: refresh db assets success
-2025-6-17 11:48:28-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 11:48:28-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 11:48:28-debug: asset-db:refresh-all-database (111ms)
-2025-6-17 11:48:28-debug: asset-db:worker-effect-data-processing (1ms)
-2025-6-17 11:48:28-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-6-17 11:48:29-debug: programming:execute-script (2ms)
-2025-6-17 11:48:31-debug: start remove asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets\问题记录.ts...
-2025-6-17 11:48:31-log: 资源数据库已锁定，资源操作(bound _refreshAsset)将会延迟响应，请稍侯
-2025-6-17 11:48:32-debug: refresh db internal success
-2025-6-17 11:48:32-debug: %cDestroy%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\问题记录.tsbackground: #ffb8b8; color: #000;color: #000;
-2025-6-17 11:48:32-debug: refresh db assets success
-2025-6-17 11:48:32-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 11:48:32-debug: start refresh asset from D:\personal\git\experience\code\测试研究\cocos-test\test\assets\问题记录.ts...
-2025-6-17 11:48:32-debug: remove asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets\问题记录.ts success
-2025-6-17 11:48:32-debug: refresh asset D:\personal\git\experience\code\测试研究\cocos-test\test\assets success
-2025-6-17 11:48:32-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 11:48:32-debug: asset-db:refresh-all-database (107ms)
-2025-6-17 11:48:32-debug: asset-db:worker-effect-data-processing (4ms)
-2025-6-17 11:48:32-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
-2025-6-17 12:16:06-debug: refresh db internal success
-2025-6-17 12:16:06-debug: refresh db assets success
-2025-6-17 12:16:06-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 12:16:06-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 12:16:06-debug: asset-db:refresh-all-database (98ms)
-2025-6-17 12:16:06-debug: asset-db:worker-effect-data-processing (1ms)
-2025-6-17 12:16:06-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-6-17 12:16:15-debug: refresh db internal success
-2025-6-17 12:16:15-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:16:15-debug: refresh db assets success
-2025-6-17 12:16:15-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 12:16:15-debug: asset-db:refresh-all-database (146ms)
-2025-6-17 12:16:15-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:16:16-debug: recompile effect.bin success
-2025-6-17 12:16:16-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 12:16:16-debug: asset-db:worker-effect-data-processing (559ms)
-2025-6-17 12:16:16-debug: asset-db-hook-engine-extends-afterRefresh (559ms)
-2025-6-17 12:16:40-debug: refresh db internal success
-2025-6-17 12:16:40-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:16:40-debug: refresh db assets success
-2025-6-17 12:16:40-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 12:16:40-debug: asset-db:refresh-all-database (146ms)
-2025-6-17 12:16:40-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:16:41-debug: recompile effect.bin success
-2025-6-17 12:16:41-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 12:16:41-debug: asset-db:worker-effect-data-processing (540ms)
-2025-6-17 12:16:41-debug: asset-db-hook-engine-extends-afterRefresh (540ms)
-2025-6-17 12:16:56-debug: refresh db internal success
-2025-6-17 12:16:56-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:16:56-debug: refresh db assets success
-2025-6-17 12:16:56-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 12:16:56-debug: asset-db:refresh-all-database (172ms)
-2025-6-17 12:16:56-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:16:56-debug: recompile effect.bin success
-2025-6-17 12:16:56-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 12:16:56-debug: asset-db:worker-effect-data-processing (580ms)
-2025-6-17 12:16:56-debug: asset-db-hook-engine-extends-afterRefresh (581ms)
-2025-6-17 12:17:08-debug: refresh db internal success
-2025-6-17 12:17:08-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:17:08-debug: refresh db assets success
-2025-6-17 12:17:08-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 12:17:08-debug: asset-db:refresh-all-database (154ms)
-2025-6-17 12:17:08-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:17:09-debug: recompile effect.bin success
-2025-6-17 12:17:09-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 12:17:09-debug: asset-db:worker-effect-data-processing (526ms)
-2025-6-17 12:17:09-debug: asset-db-hook-engine-extends-afterRefresh (526ms)
-2025-6-17 12:17:37-debug: refresh db internal success
-2025-6-17 12:17:37-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:17:37-debug: refresh db assets success
-2025-6-17 12:17:37-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 12:17:37-debug: asset-db:refresh-all-database (122ms)
-2025-6-17 12:17:37-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:17:37-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 12:17:37-debug: recompile effect.bin success
-2025-6-17 12:17:37-debug: asset-db:worker-effect-data-processing (467ms)
-2025-6-17 12:17:37-debug: asset-db-hook-engine-extends-afterRefresh (467ms)
-2025-6-17 12:17:49-debug: refresh db internal success
-2025-6-17 12:17:49-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:17:49-debug: refresh db assets success
-2025-6-17 12:17:49-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 12:17:49-debug: asset-db:refresh-all-database (128ms)
-2025-6-17 12:17:49-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:17:49-debug: recompile effect.bin success
-2025-6-17 12:17:49-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 12:17:49-debug: asset-db:worker-effect-data-processing (479ms)
-2025-6-17 12:17:49-debug: asset-db-hook-engine-extends-afterRefresh (480ms)
-2025-6-17 12:18:09-debug: refresh db internal success
-2025-6-17 12:18:09-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:18:09-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 12:18:09-debug: refresh db assets success
-2025-6-17 12:18:09-debug: asset-db:refresh-all-database (130ms)
-2025-6-17 12:18:09-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:18:09-debug: recompile effect.bin success
-2025-6-17 12:18:09-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 12:18:09-debug: asset-db:worker-effect-data-processing (463ms)
-2025-6-17 12:18:09-debug: asset-db-hook-engine-extends-afterRefresh (464ms)
-2025-6-17 12:18:15-debug: refresh db internal success
-2025-6-17 12:18:15-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:18:15-debug: refresh db assets success
-2025-6-17 12:18:15-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 12:18:15-debug: asset-db:refresh-all-database (109ms)
-2025-6-17 12:18:15-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:18:16-debug: recompile effect.bin success
-2025-6-17 12:18:16-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 12:18:16-debug: asset-db:worker-effect-data-processing (396ms)
-2025-6-17 12:18:16-debug: asset-db-hook-engine-extends-afterRefresh (396ms)
-2025-6-17 12:18:41-debug: refresh db internal success
-2025-6-17 12:18:41-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:18:41-debug: refresh db assets success
-2025-6-17 12:18:41-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 12:18:41-debug: asset-db:refresh-all-database (119ms)
-2025-6-17 12:18:41-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:18:41-debug: recompile effect.bin success
-2025-6-17 12:18:41-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 12:18:41-debug: asset-db:worker-effect-data-processing (478ms)
-2025-6-17 12:18:41-debug: asset-db-hook-engine-extends-afterRefresh (479ms)
-2025-6-17 12:18:49-debug: refresh db internal success
-2025-6-17 12:18:49-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:18:49-debug: refresh db assets success
-2025-6-17 12:18:49-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 12:18:49-debug: asset-db:refresh-all-database (143ms)
-2025-6-17 12:18:49-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:18:50-debug: recompile effect.bin success
-2025-6-17 12:18:50-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 12:18:50-debug: asset-db:worker-effect-data-processing (476ms)
-2025-6-17 12:18:50-debug: asset-db-hook-engine-extends-afterRefresh (477ms)
-2025-6-17 12:19:03-debug: refresh db internal success
-2025-6-17 12:19:03-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\builtin-sprite-renderer-test.effectbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:19:03-debug: refresh db assets success
-2025-6-17 12:19:03-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 12:19:03-debug: asset-db:refresh-all-database (128ms)
-2025-6-17 12:19:03-debug: %cImport%c: D:\personal\git\experience\code\测试研究\cocos-test\test\assets\shader\default-sprite-renderer-material.mtlbackground: #aaff85; color: #000;color: #000;
-2025-6-17 12:19:03-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 12:19:03-debug: recompile effect.bin success
-2025-6-17 12:19:03-debug: asset-db:worker-effect-data-processing (435ms)
-2025-6-17 12:19:03-debug: asset-db-hook-engine-extends-afterRefresh (435ms)
-2025-6-17 12:21:42-debug: refresh db internal success
-2025-6-17 12:21:42-debug: refresh db assets success
-2025-6-17 12:21:42-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 12:21:42-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 12:21:42-debug: asset-db:refresh-all-database (98ms)
-2025-6-17 12:21:42-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-6-17 12:21:42-debug: asset-db:worker-effect-data-processing (2ms)
-2025-6-17 16:02:09-debug: refresh db internal success
-2025-6-17 16:02:09-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 16:02:09-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 16:02:09-debug: refresh db assets success
-2025-6-17 16:02:09-debug: asset-db:refresh-all-database (193ms)
-2025-6-17 16:02:09-debug: asset-db:worker-effect-data-processing (3ms)
-2025-6-17 16:02:09-debug: asset-db-hook-engine-extends-afterRefresh (8ms)
-2025-6-17 16:02:12-debug: refresh db internal success
-2025-6-17 16:02:12-debug: refresh db assets success
-2025-6-17 16:02:12-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-17 16:02:12-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-17 16:02:12-debug: asset-db:refresh-all-database (111ms)
-2025-6-17 16:02:12-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
-2025-6-17 16:02:12-debug: asset-db:worker-effect-data-processing (3ms)
-2025-6-18 16:18:50-debug: refresh db internal success
-2025-6-18 16:18:50-debug: refresh db assets success
-2025-6-18 16:18:50-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-18 16:18:50-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-18 16:18:50-debug: asset-db:refresh-all-database (160ms)
-2025-6-18 16:18:50-debug: asset-db:worker-effect-data-processing (17ms)
-2025-6-18 16:18:50-debug: asset-db-hook-engine-extends-afterRefresh (19ms)
-2025-6-18 17:02:50-debug: refresh db internal success
-2025-6-18 17:02:50-debug: refresh db assets success
-2025-6-18 17:02:50-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-18 17:02:50-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-18 17:02:50-debug: asset-db:refresh-all-database (120ms)
-2025-6-18 17:02:50-debug: asset-db:worker-effect-data-processing (2ms)
-2025-6-18 17:02:50-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-6-18 17:15:22-debug: refresh db internal success
-2025-6-18 17:15:22-debug: refresh db assets success
-2025-6-18 17:15:22-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-18 17:15:22-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-18 17:15:22-debug: asset-db:refresh-all-database (114ms)
-2025-6-18 17:15:22-debug: asset-db:worker-effect-data-processing (1ms)
-2025-6-18 17:15:22-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
-2025-6-18 17:15:26-debug: refresh db internal success
-2025-6-18 17:15:26-debug: refresh db assets success
-2025-6-18 17:15:26-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-18 17:15:26-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-18 17:15:26-debug: asset-db:refresh-all-database (129ms)
-2025-6-18 17:15:26-debug: asset-db:worker-effect-data-processing (1ms)
-2025-6-18 17:15:26-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
-2025-6-19 21:03:37-debug: refresh db internal success
-2025-6-19 21:03:37-debug: refresh db assets success
-2025-6-19 21:03:37-debug: Run asset db hook engine-extends:afterRefresh ...
-2025-6-19 21:03:37-debug: Run asset db hook engine-extends:afterRefresh success!
-2025-6-19 21:03:37-debug: asset-db:refresh-all-database (248ms)
-2025-6-19 21:03:37-debug: asset-db:worker-effect-data-processing (19ms)
-2025-6-19 21:03:37-debug: asset-db-hook-engine-extends-afterRefresh (21ms)
