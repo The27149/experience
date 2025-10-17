@@ -1,27 +1,27 @@
-10:56:11.275 debug: 2025/6/17 10:56:11
-10:56:11.276 debug: Project: D:\personal\git\experience\code\测试研究\cocos-test\test
-10:56:11.276 debug: Targets: editor,preview
-10:56:11.292 debug: Incremental file seems great.
-10:56:11.294 debug: Engine path: D:\app\cocos\editors\Creator\3.8.5\resources\resources\3d\engine
-10:56:11.311 debug: Initializing target [Editor]
-10:56:11.311 debug: Loading cache
-10:56:11.330 debug: Loading cache costs 18.696200000002136ms.
-10:56:11.331 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,gfx-webgpu,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,vendor-google,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,custom-pipeline-builtin-scripts,custom-pipeline-post-process,legacy-pipeline,websocket,websocket-server,meshopt
-10:56:11.331 debug: Our import map(foo:/bar): {
+16:30:23.569 debug: 2025/9/28 16:30:23
+16:30:23.569 debug: Project: D:\personal\git\experience\code\测试研究\cocos-test\test
+16:30:23.570 debug: Targets: editor,preview
+16:30:23.574 debug: Incremental file seems great.
+16:30:23.575 debug: Engine path: D:\app\cocos\editors\Creator\3.8.5\resources\resources\3d\engine
+16:30:23.590 debug: Initializing target [Editor]
+16:30:23.591 debug: Loading cache
+16:30:23.605 debug: Loading cache costs 13.492300000001705ms.
+16:30:23.605 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,gfx-webgpu,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,vendor-google,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,custom-pipeline-builtin-scripts,custom-pipeline-post-process,legacy-pipeline,websocket,websocket-server,meshopt
+16:30:23.606 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-10:56:11.332 debug: Initializing target [Preview]
-10:56:11.332 debug: Loading cache
-10:56:11.347 debug: Loading cache costs 15.32930000000124ms.
-10:56:11.348 debug: Our import map(foo:/bar): {
+16:30:23.606 debug: Initializing target [Preview]
+16:30:23.606 debug: Loading cache
+16:30:23.619 debug: Loading cache costs 12.230200000001787ms.
+16:30:23.619 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
   }
 }
-10:56:11.428 debug: Sync engine features: 2d,3d,animation,audio,base,custom-pipeline,dragon-bones,gfx-webgl,intersection-2d,light-probe,marionette,particle,particle-2d,physics-2d-box2d,physics-ammo,primitive,profiler,skeletal-animation,spine,terrain,tiled-map,tween,ui,video,websocket,webview
-10:56:11.463 debug: Reset databases. Enumerated domains: [
+16:30:23.686 debug: Sync engine features: 2d,3d,animation,audio,base,custom-pipeline,dragon-bones,gfx-webgl,intersection-2d,light-probe,marionette,particle,particle-2d,physics-2d-box2d,physics-ammo,primitive,profiler,skeletal-animation,spine,terrain,tiled-map,tween,ui,video,websocket,webview
+16:30:23.700 debug: Reset databases. Enumerated domains: [
   {
     "root": "db://internal/",
     "physical": "D:\\app\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets"
@@ -31,272 +31,208 @@
     "physical": "D:\\personal\\git\\experience\\code\\测试研究\\cocos-test\\test\\assets"
   }
 ]
-10:56:11.464 debug: Our import map(foo:/bar): {
+16:30:23.701 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/",
     "db://assets/": "file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/"
   }
 }
-10:56:11.466 debug: Our import map(foo:/bar): {
+16:30:23.702 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc",
     "db://internal/": "file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/",
     "db://assets/": "file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/"
   }
 }
-10:56:11.468 debug: Pulling asset-db.
-10:56:11.481 debug: Fetch asset-db cost: 13.185900000000402ms.
-10:56:11.483 debug: Build iteration starts.
+16:30:23.703 debug: Pulling asset-db.
+16:30:23.711 debug: Fetch asset-db cost: 7.709999999999127ms.
+16:30:23.712 debug: Build iteration starts.
 Number of accumulated asset changes: 6
 Feature changed: false
-10:56:11.484 debug: Target(editor) build started.
-10:56:11.491 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间)
-10:56:11.491 debug: Inspect cce:/internal/x/cc
-10:56:11.591 debug: transform url: 'cce:/internal/x/cc' costs: 100.00 ms
-10:56:11.597 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-10:56:11.598 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-10:56:11.598 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
-10:56:11.598 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
-10:56:11.598 debug: Resolve cce:/internal/x/cc-fu/gfx-webgpu from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgpu.
-10:56:11.598 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
-10:56:11.598 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-10:56:11.598 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
-10:56:11.598 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-10:56:11.598 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/vendor-google from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/vendor-google.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-10:56:11.599 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline-post-process from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline-post-process.
-10:56:11.600 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
-10:56:11.600 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:16 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间)
-10:56:11.600 debug: Inspect cce:/internal/x/prerequisite-imports
-10:56:11.631 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 31.10 ms
-10:56:11.635 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
-10:56:11.636 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
-10:56:11.639 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-10:56:11.640 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-10:56:11.643 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-10:56:11.648 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-10:56:11.649 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/code-quality/cr.mjs.
-10:56:11.649 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Jun 13 2025 17:32:20 GMT+0800 (中国标准时间), Current mtime: Tue Jun 17 2025 10:55:52 GMT+0800 (中国标准时间)
-10:56:11.649 debug: Inspect cce:/internal/code-quality/cr.mjs
-10:56:11.672 debug: transform url: 'cce:/internal/code-quality/cr.mjs' costs: 22.30 ms
-10:56:11.675 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
-10:56:11.675 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
-10:56:11.676 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
-10:56:11.676 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as external dependency cc/env.
-10:56:11.677 debug: Resolve ./builtin-pipeline-settings from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-10:56:11.679 debug: Resolve ./builtin-pipeline-pass from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
-10:56:11.680 debug: Resolve ./builtin-pipeline from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-10:56:11.680 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
-10:56:11.681 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-10:56:11.681 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-10:56:11.681 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-10:56:11.681 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
-10:56:11.682 debug: Resolve ./builtin-pipeline-types from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-10:56:11.682 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-10:56:11.682 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-10:56:11.682 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-10:56:11.682 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/code-quality/cr.mjs.
-10:56:11.682 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
-10:56:11.682 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
-10:56:11.683 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
-10:56:11.684 debug: Resolve ./builtin-pipeline-settings from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-10:56:11.684 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as external dependency cc/env.
-10:56:11.684 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
-10:56:11.684 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-10:56:11.684 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-10:56:11.684 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-10:56:11.684 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
-10:56:11.686 debug: Resolve ./builtin-pipeline-types from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-10:56:11.686 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-10:56:11.686 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-10:56:11.687 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-10:56:11.703 debug: Target(editor) ends with cost 218.73749999999927ms.
-10:56:11.703 debug: Target(preview) build started.
-10:56:11.708 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间)
-10:56:11.709 debug: Inspect cce:/internal/x/cc
-10:56:11.761 debug: transform url: 'cce:/internal/x/cc' costs: 52.20 ms
-10:56:11.764 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
-10:56:11.764 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
-10:56:11.764 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
-10:56:11.764 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
-10:56:11.764 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
-10:56:11.764 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
-10:56:11.764 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-10:56:11.764 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/physics-ammo from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-ammo.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
-10:56:11.765 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
-10:56:11.766 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
-10:56:11.766 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
-10:56:11.766 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
-10:56:11.766 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-10:56:11.766 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:01:16 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间)
-10:56:11.766 debug: Inspect cce:/internal/x/prerequisite-imports
-10:56:11.789 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 23.00 ms
-10:56:11.792 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
-10:56:11.793 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
-10:56:11.794 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-10:56:11.795 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-10:56:11.797 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-10:56:11.797 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-10:56:11.798 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/code-quality/cr.mjs.
-10:56:11.798 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Fri Jun 13 2025 17:32:20 GMT+0800 (中国标准时间), Current mtime: Tue Jun 17 2025 10:55:52 GMT+0800 (中国标准时间)
-10:56:11.798 debug: Inspect cce:/internal/code-quality/cr.mjs
-10:56:11.840 debug: transform url: 'cce:/internal/code-quality/cr.mjs' costs: 42.10 ms
-10:56:11.843 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
-10:56:11.843 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
-10:56:11.843 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
-10:56:11.843 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as external dependency cc/env.
-10:56:11.844 debug: Resolve ./builtin-pipeline-settings from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-10:56:11.846 debug: Resolve ./builtin-pipeline-pass from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
-10:56:11.847 debug: Resolve ./builtin-pipeline from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-10:56:11.847 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
-10:56:11.847 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-10:56:11.847 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-10:56:11.847 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
-10:56:11.847 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
-10:56:11.849 debug: Resolve ./builtin-pipeline-types from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-10:56:11.849 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-10:56:11.849 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-10:56:11.849 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
-10:56:11.849 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/code-quality/cr.mjs.
-10:56:11.849 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
-10:56:11.849 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
-10:56:11.849 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
-10:56:11.850 debug: Resolve ./builtin-pipeline-settings from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-10:56:11.850 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as external dependency cc/env.
-10:56:11.851 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
-10:56:11.852 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-10:56:11.852 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-10:56:11.852 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
-10:56:11.852 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
-10:56:11.853 debug: Resolve ./builtin-pipeline-types from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-10:56:11.854 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-10:56:11.854 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-10:56:11.854 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
-10:56:11.867 debug: Target(preview) ends with cost 163.61319999999978ms.
-10:56:14.338 debug: Pulling asset-db.
-10:56:15.170 debug: Fetch asset-db cost: 831.4428999999982ms.
-10:56:15.174 debug: Build iteration starts.
+16:30:23.712 debug: Target(editor) build started.
+16:30:23.717 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:20 GMT+0800 (中国标准时间)
+16:30:23.717 debug: Inspect cce:/internal/x/cc
+16:30:23.790 debug: transform url: 'cce:/internal/x/cc' costs: 73.40 ms
+16:30:23.793 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+16:30:23.793 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+16:30:23.793 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+16:30:23.793 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+16:30:23.793 debug: Resolve cce:/internal/x/cc-fu/gfx-webgpu from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgpu.
+16:30:23.793 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+16:30:23.793 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/vendor-google from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/vendor-google.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+16:30:23.794 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+16:30:23.795 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline-post-process from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline-post-process.
+16:30:23.795 debug: Resolve cce:/internal/x/cc-fu/legacy-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/legacy-pipeline.
+16:30:23.795 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:52:39 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:20 GMT+0800 (中国标准时间)
+16:30:23.795 debug: Inspect cce:/internal/x/prerequisite-imports
+16:30:23.820 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 25.20 ms
+16:30:23.822 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+16:30:23.823 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+16:30:23.824 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+16:30:23.825 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+16:30:23.826 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+16:30:23.827 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:30:23.827 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/code-quality/cr.mjs.
+16:30:23.827 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Jun 17 2025 10:55:52 GMT+0800 (中国标准时间), Current mtime: Sun Sep 28 2025 16:30:03 GMT+0800 (中国标准时间)
+16:30:23.827 debug: Inspect cce:/internal/code-quality/cr.mjs
+16:30:23.845 debug: transform url: 'cce:/internal/code-quality/cr.mjs' costs: 17.50 ms
+16:30:23.847 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+16:30:23.847 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+16:30:23.848 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+16:30:23.848 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as external dependency cc/env.
+16:30:23.849 debug: Resolve ./builtin-pipeline-settings from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+16:30:23.850 debug: Resolve ./builtin-pipeline-pass from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+16:30:23.850 debug: Resolve ./builtin-pipeline from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+16:30:23.850 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
+16:30:23.851 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+16:30:23.851 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+16:30:23.851 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+16:30:23.851 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
+16:30:23.852 debug: Resolve ./builtin-pipeline-types from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+16:30:23.852 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+16:30:23.852 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+16:30:23.852 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+16:30:23.852 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/code-quality/cr.mjs.
+16:30:23.852 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+16:30:23.852 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+16:30:23.852 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+16:30:23.853 debug: Resolve ./builtin-pipeline-settings from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+16:30:23.853 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as external dependency cc/env.
+16:30:23.853 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
+16:30:23.853 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+16:30:23.853 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+16:30:23.853 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+16:30:23.853 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
+16:30:23.854 debug: Resolve ./builtin-pipeline-types from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+16:30:23.854 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+16:30:23.854 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+16:30:23.854 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+16:30:23.862 debug: Target(editor) ends with cost 149.9239000000016ms.
+16:30:23.863 debug: Target(preview) build started.
+16:30:23.867 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:20 GMT+0800 (中国标准时间)
+16:30:23.867 debug: Inspect cce:/internal/x/cc
+16:30:23.911 debug: transform url: 'cce:/internal/x/cc' costs: 44.50 ms
+16:30:23.914 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+16:30:23.914 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+16:30:23.914 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+16:30:23.914 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+16:30:23.914 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+16:30:23.914 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+16:30:23.914 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+16:30:23.914 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+16:30:23.915 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+16:30:23.915 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+16:30:23.915 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+16:30:23.915 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+16:30:23.915 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+16:30:23.915 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+16:30:23.915 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+16:30:23.915 debug: Resolve cce:/internal/x/cc-fu/physics-ammo from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-ammo.
+16:30:23.915 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+16:30:23.915 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+16:30:23.915 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+16:30:23.915 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+16:30:23.916 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+16:30:23.916 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+16:30:23.916 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+16:30:23.916 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+16:30:23.916 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+16:30:23.916 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+16:30:23.916 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+16:30:23.916 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:52:39 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:20 GMT+0800 (中国标准时间)
+16:30:23.916 debug: Inspect cce:/internal/x/prerequisite-imports
+16:30:23.950 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 33.40 ms
+16:30:23.952 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+16:30:23.952 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+16:30:23.953 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+16:30:23.954 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+16:30:23.955 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+16:30:23.956 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:30:23.956 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/code-quality/cr.mjs.
+16:30:23.956 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Tue Jun 17 2025 10:55:52 GMT+0800 (中国标准时间), Current mtime: Sun Sep 28 2025 16:30:03 GMT+0800 (中国标准时间)
+16:30:23.956 debug: Inspect cce:/internal/code-quality/cr.mjs
+16:30:23.976 debug: transform url: 'cce:/internal/code-quality/cr.mjs' costs: 19.30 ms
+16:30:23.977 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+16:30:23.977 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+16:30:23.977 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as cce:/internal/x/cc.
+16:30:23.977 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as external dependency cc/env.
+16:30:23.978 debug: Resolve ./builtin-pipeline-settings from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+16:30:23.979 debug: Resolve ./builtin-pipeline-pass from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+16:30:23.980 debug: Resolve ./builtin-pipeline from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+16:30:23.980 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/code-quality/cr.mjs.
+16:30:23.981 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+16:30:23.981 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+16:30:23.981 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as cce:/internal/x/cc.
+16:30:23.981 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as external dependency cc/env.
+16:30:23.981 debug: Resolve ./builtin-pipeline-types from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+16:30:23.982 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+16:30:23.982 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+16:30:23.982 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts as cce:/internal/x/cc.
+16:30:23.982 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/code-quality/cr.mjs.
+16:30:23.982 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+16:30:23.982 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+16:30:23.982 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as cce:/internal/x/cc.
+16:30:23.983 debug: Resolve ./builtin-pipeline-settings from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+16:30:23.983 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts as external dependency cc/env.
+16:30:23.983 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/code-quality/cr.mjs.
+16:30:23.984 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+16:30:23.984 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+16:30:23.984 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as cce:/internal/x/cc.
+16:30:23.984 debug: Resolve cc/env from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as external dependency cc/env.
+16:30:23.985 debug: Resolve ./builtin-pipeline-types from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+16:30:23.985 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+16:30:23.985 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+16:30:23.985 debug: Resolve cc from file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+16:30:24.014 debug: Target(preview) ends with cost 151.73630000000048ms.
+16:30:25.862 debug: Pulling asset-db.
+16:30:26.644 debug: Fetch asset-db cost: 781.1564999999973ms.
+16:30:26.645 debug: Build iteration starts.
 Number of accumulated asset changes: 6
 Feature changed: false
-10:56:15.175 debug: Target(editor) build started.
-10:56:15.194 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间)
-10:56:15.194 debug: Inspect cce:/internal/x/prerequisite-imports
-10:56:15.220 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 25.70 ms
-10:56:15.222 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
-10:56:15.234 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
-10:56:15.238 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-10:56:15.240 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-10:56:15.241 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-10:56:15.242 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-10:56:15.260 debug: Target(editor) ends with cost 85.38379999999961ms.
-10:56:15.261 debug: Target(preview) build started.
-10:56:15.266 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:18 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间)
-10:56:15.266 debug: Inspect cce:/internal/x/prerequisite-imports
-10:56:15.290 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 23.00 ms
-10:56:15.292 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
-10:56:15.294 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
-10:56:15.296 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-10:56:15.297 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-10:56:15.299 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-10:56:15.300 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-10:56:15.331 debug: Target(preview) ends with cost 69.72620000000097ms.
-11:46:07.176 debug: Dispatch build request for time accumulated 1 asset changes.
-11:46:07.179 debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-11:46:07.180 debug: Target(editor) build started.
-11:46:07.184 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:50:14 GMT+0800 (中国标准时间)
-11:46:07.184 debug: Inspect cce:/internal/x/prerequisite-imports
-11:46:07.211 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 26.30 ms
-11:46:07.213 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
-11:46:07.214 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
-11:46:07.216 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-11:46:07.217 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-11:46:07.218 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-11:46:07.219 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-11:46:07.219 debug: Resolve file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.ts from cce:/internal/x/prerequisite-imports as file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.ts.
-11:46:07.220 debug: Inspect file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.ts
-11:46:07.256 debug: transform url: 'file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.ts' costs: 36.40 ms
-11:46:07.258 debug: Resolve cc from file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.ts as cce:/internal/x/cc.
-11:46:07.258 debug: Resolve cc from file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.ts as cce:/internal/x/cc.
-11:46:07.258 debug: Resolve cc from file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.ts as cce:/internal/x/cc.
-11:46:07.275 debug: Target(editor) ends with cost 94.92039999971166ms.
-11:46:07.275 debug: Target(preview) build started.
-11:46:07.281 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:50:14 GMT+0800 (中国标准时间)
-11:46:07.281 debug: Inspect cce:/internal/x/prerequisite-imports
-11:46:07.298 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 16.90 ms
-11:46:07.299 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
-11:46:07.301 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
-11:46:07.302 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-11:46:07.303 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-11:46:07.304 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-11:46:07.304 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-11:46:07.305 debug: Resolve file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.ts from cce:/internal/x/prerequisite-imports as file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.ts.
-11:46:07.305 debug: Inspect file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.ts
-11:46:07.349 debug: transform url: 'file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.ts' costs: 43.40 ms
-11:46:07.351 debug: Resolve cc from file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.ts as cce:/internal/x/cc.
-11:46:07.351 debug: Resolve cc from file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.ts as cce:/internal/x/cc.
-11:46:07.351 debug: Resolve cc from file:///D:/personal/git/experience/code/%E6%B5%8B%E8%AF%95%E7%A0%94%E7%A9%B6/cocos-test/test/assets/%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.ts as cce:/internal/x/cc.
-11:46:07.364 debug: Target(preview) ends with cost 88.6598000000231ms.
-11:48:32.038 debug: Dispatch build request for time accumulated 1 asset changes.
-11:48:32.041 debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-11:48:32.041 debug: Target(editor) build started.
-11:48:32.046 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:50:14 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:52:39 GMT+0800 (中国标准时间)
-11:48:32.046 debug: Inspect cce:/internal/x/prerequisite-imports
-11:48:32.065 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 18.80 ms
-11:48:32.067 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
-11:48:32.069 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
-11:48:32.070 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-11:48:32.071 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-11:48:32.073 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-11:48:32.074 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-11:48:32.087 debug: Target(editor) ends with cost 45.741200000047684ms.
-11:48:32.087 debug: Target(preview) build started.
-11:48:32.091 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:50:14 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:52:39 GMT+0800 (中国标准时间)
-11:48:32.094 debug: Inspect cce:/internal/x/prerequisite-imports
-11:48:32.119 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 24.90 ms
-11:48:32.123 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
-11:48:32.124 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
-11:48:32.125 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
-11:48:32.126 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
-11:48:32.127 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
-11:48:32.127 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
-11:48:32.140 debug: Target(preview) ends with cost 51.93539999984205ms.
+16:30:26.645 debug: Target(editor) build started.
+16:30:26.649 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:20 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间)
+16:30:26.649 debug: Inspect cce:/internal/x/prerequisite-imports
+16:30:26.664 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 14.60 ms
+16:30:26.666 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+16:30:26.666 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+16:30:26.668 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+16:30:26.669 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+16:30:26.670 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+16:30:26.670 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:30:26.684 debug: Target(editor) ends with cost 38.41500000000087ms.
+16:30:26.684 debug: Target(preview) build started.
+16:30:26.688 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:20 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:23 GMT+0800 (中国标准时间)
+16:30:26.688 debug: Inspect cce:/internal/x/prerequisite-imports
+16:30:26.711 debug: transform url: 'cce:/internal/x/prerequisite-imports' costs: 22.60 ms
+16:30:26.713 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts.
+16:30:26.715 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts.
+16:30:26.716 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts.
+16:30:26.718 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts.
+16:30:26.719 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts.
+16:30:26.720 debug: Resolve file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/app/cocos/editors/Creator/3.8.5/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+16:30:26.733 debug: Target(preview) ends with cost 48.47140000000218ms.
